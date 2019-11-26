@@ -10,6 +10,7 @@
     <SignAssembly>true</SignAssembly>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Softheon</Authors>
+    <PackageDescription>SSH.NET is a Secure Shell (SSH) library for .NET, optimized for parallelism and with broad framework support.  Updated to support FIPS cryptography restrictions.</PackageDescription>
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/Softheon/SSH.NET</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Softheon/SSH.NET</RepositoryUrl>
@@ -17,6 +18,9 @@
     <PackageTags>ssh scp sftp</PackageTags>
     <PackageReleaseNotes>Updated to FIPS compliant cryptography providers</PackageReleaseNotes>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageVersion>2017.1.1</PackageVersion>
+    <Title>SSH.NET</Title>
+    <PackageId>SSH.NET</PackageId>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="..\Renci.SshNet\**\*.cs" Exclude="..\Renci.SshNet\Properties\AssemblyInfo.cs">
